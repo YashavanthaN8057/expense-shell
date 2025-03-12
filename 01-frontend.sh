@@ -1,5 +1,36 @@
 #!/bin/bash
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
 # echo "the exit code is $(id -u)"
 
 # # if [ $(id -u) -ne 0 ]; then 
@@ -17,19 +48,19 @@
 #  fi
 
  
- vehAction= $1
+#  vehAction= $1
 
- if [ vehAction -eq start] ; then
-echo -e "\e[31m we are starting the vechicle \e[0m"
+#  if [ vehAction -eq start] ; then
+# echo -e "\e[31m we are starting the vechicle \e[0m"
 
-else if [vehAction -eq stop] ; then
-echo -e "\e[31m we are stopping the vehicle according to the command \e[0m"
+# else if [vehAction -eq stop] ; then
+# echo -e "\e[31m we are stopping the vehicle according to the command \e[0m"
 
-else  echo -e "\e[34m vehicles are waiting for the command\e[0m"
+# else  echo -e "\e[34m vehicles are waiting for the command\e[0m"
 
-fi
+# fi
 
-echo -e "\e[35m doing execise on if conditions \e[0m"
+# echo -e "\e[35m doing execise on if conditions \e[0m"
 
 
 

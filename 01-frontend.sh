@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 component=frontend
 logFile=/tmp/$component.log
 # Common function to print the status of the component

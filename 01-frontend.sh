@@ -21,9 +21,9 @@ echo -n "Installing Nginx:"
 dnf install nginx -y     &>> $logFile
 stat $?
 
-# echo -n "Configuring Proxy:"
-# cp expense.conf /etc/nginx/default.d/expense.conf  &>> $logFile
-# stat $?
+echo -n "Configuring Proxy:"
+cp expense.conf /etc/nginx/default.d/expense.conf  &>> $logFile
+stat $?
 
 echo -n "Clearning Old $component Content:"
 rm -rf /usr/share/nginx/html/* 
